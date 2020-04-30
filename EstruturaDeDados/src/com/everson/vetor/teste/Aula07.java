@@ -12,7 +12,8 @@ import com.everson.vetor.Vetor;
  * @author aluno
  */
 public class Aula07 {
-       public static void main(String[] args) throws Exception {
+
+    public static void main(String[] args) throws Exception {
         Vetor v1 = new Vetor(10);
         v1.adc("B");
         v1.adc("C");
@@ -24,5 +25,5 @@ public class Aula07 {
         System.out.println(v1);
         v1.adc(3, "D");
         System.out.println(v1);
-}
+    }
 }

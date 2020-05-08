@@ -1,6 +1,7 @@
 package linguagemdeprogramacao01;
 
 import linguagemdeprogramacao01.aula03.OrdemCrescente;
+import linguagemdeprogramacao01.aula05.NumeroMultiplo;
 
 /**
  *
@@ -13,8 +14,9 @@ public class LinguagemDeProgramacao01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    OrdemCrescente oc = new OrdemCrescente();
-    oc.exibir();
+        NumeroMultiplo n = new NumeroMultiplo();
+        n.Verificar();
+       
 
     }
 

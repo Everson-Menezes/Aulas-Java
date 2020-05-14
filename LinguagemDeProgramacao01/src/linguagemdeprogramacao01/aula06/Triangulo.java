@@ -26,20 +26,17 @@ public class Triangulo {
     public String verificar() {
         if (this.anguloA < 90 && this.anguloB < 90 && this.anguloC < 90) {
             this.triangulo = "Triângulo Acutângulo";
-
-            if (this.anguloA == 90 || this.anguloB == 90 || this.anguloC == 90) {
-                this.triangulo = "Triângulo Retângulo";
-
-                if (this.anguloA > 90 || this.anguloB > 90 || this.anguloC > 90) {
-                    this.triangulo = "Triângulo Obtusângulo";
-                }
-            }
+        }
+        if (this.anguloA == 90 || this.anguloB == 90 || this.anguloC == 90) {
+            this.triangulo = "Triângulo Retângulo";
+        } else if (this.anguloA > 90 || this.anguloB > 90 || this.anguloC > 90) {
+            this.triangulo = "Triângulo Obtusângulo";
         }
 
         return this.triangulo;
     }
-    
-    public void exibir(){
+
+    public void exibir() {
         System.out.println("É um  triângulo: " + this.triangulo);
     }
 

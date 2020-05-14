@@ -49,7 +49,7 @@ public class Poligono {
         double area = 0;
         if (this.lados == 3) {
             double p = (a + b + c) / 2;
-            area = Math.sqrt(p * (p - a) * p * (p - b) * p * (p - c));
+            area = Math.sqrt(p * (p - a) * (p - b) * (p - c));
         } else if (this.lados == 4) {
             area = Math.pow(a, 2);
             //Crrigir aqui 

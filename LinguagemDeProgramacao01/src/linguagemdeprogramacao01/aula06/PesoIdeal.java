@@ -15,7 +15,7 @@ public class PesoIdeal {
 
     public void ler() {
         System.out.println("Digite sua altua: ");
-        this.altura = teclado.nextInt();
+        this.altura = teclado.nextFloat();
         System.out.println("Qual seu sexo digite 1 para feminino e 2 para masculino");
         int menu = teclado.nextInt();
         switch (menu) {
@@ -45,12 +45,5 @@ public class PesoIdeal {
 
     public void exibir() {
         System.out.println("O peso ideal para uma pessoa do sexo: " + this.sexo + " é de : " + calcular());
-    }
-
-    public static void main(String[] args) {
-        PesoIdeal p = new PesoIdeal();
-        p.ler();
-        p.calcular();
-        p.exibir();
-    }
+    }   
 }

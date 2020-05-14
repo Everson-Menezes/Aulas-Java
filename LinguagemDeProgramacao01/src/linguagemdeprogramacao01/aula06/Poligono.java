@@ -75,11 +75,4 @@ public class Poligono {
     public void exibir() {
         System.out.println("O polígono é um: " + this.figura + " com a area de : " + calcular());
     }
-
-    public static void main(String[] args) {
-        Poligono p = new Poligono();
-        p.ler();
-        p.calcular();
-        p.exibir();
-    }
 }

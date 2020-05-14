@@ -22,7 +22,7 @@ public class Maior {
                 } else {
                     if (a < c) {
                         maior = c;
-                    }else{
+                    } else {
                         maior = a;
                     }
                 }
@@ -49,10 +49,4 @@ public class Maior {
         c = teclado.nextInt();
     }
 
-    public static void main(String[] args) {
-        Maior m = new Maior();
-        m.ler();
-        m.verificar();
-        m.exibir();
-    }
 }
